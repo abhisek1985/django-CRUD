@@ -134,3 +134,6 @@ dmypy.json
 
 # idea folder
 .idea/
+
+# static files
+.static/
