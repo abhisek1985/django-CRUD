@@ -126,7 +126,8 @@ USE_TZ = True
 
 # Paths from where static files are fetched
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'user', 'templates')
+    os.path.join(BASE_DIR, 'merchant', 'templates'),
+    os.path.join(BASE_DIR, 'team', 'templates')
 ]
 
 STATIC_URL = '/static/'
